@@ -1,0 +1,17 @@
+{"name": "dynobj",
+ "version": "0.0.1",
+ "description": "Objects with dynamic attributes",
+ "main": "build/default/dynobj.node",
+ "keywords": [
+	 "dynamic attributes",
+	 "__get__",
+	 "__set__"
+ ],
+ "scripts": {
+	 "build": "node-waf"
+ },
+ "repository" : {
+	 "type" : "git",
+	 "url" : "git@github.com:kudige/dynobj.git"
+ }
+}
