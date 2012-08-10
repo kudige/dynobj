@@ -31,10 +31,8 @@ public:
 // 0.2.0 is where the switch occurred
 #ifndef NODE_MAJOR_VERSION
 														  NULL, //QueryIndexedProperty,
-#elif PROXY_NODE_VERSION_AT_LEAST(0, 2, 0)
-														  NULL, //QueryIndexedPropertyInteger,
 #else
-														  NULL, //QueryIndexedProperty,
+														  NULL, //QueryIndexedPropertyInteger,
 #endif
 														  NULL, //DeleteIndexedProperty
 									  NULL //NamedPropertyEnumerator
@@ -152,10 +150,8 @@ public:
 // 0.2.0 is where the switch occurred
 #ifndef NODE_MAJOR_VERSION
 														  NULL, //QueryIndexedProperty,
-#elif PROXY_NODE_VERSION_AT_LEAST(0, 2, 0)
-														  NULL, //QueryIndexedPropertyInteger,
 #else
-														  NULL, //QueryIndexedProperty,
+														  NULL, //QueryIndexedPropertyInteger,
 #endif
 														  NULL, //DeleteIndexedProperty
 														  NamedPropertyEnumerator
