@@ -1,7 +1,7 @@
 {"name": "dynobj",
- "version": "0.0.2",
+ "version": "0.0.3",
  "description": "Objects with dynamic attributes",
- "main": "build/default/dynobj.node",
+ "main": "build/Release/dynobj.node",
  "keywords": [
 	 "dynamic attributes",
 	 "__get__",
