@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/kudige/dynobj.png)](http://travis-ci.org/kudige/dynobj)
 # Dynobj
 
 Dynobj implements a new class of objects that support dynamic __get__ and __set__ functions
